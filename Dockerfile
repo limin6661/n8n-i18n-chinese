@@ -1,5 +1,5 @@
 # 指定 n8n 版本，和你想用的 n8n 版本保持一致
-ARG VERSION=1.123.4
+ARG VERSION=1.123.5
 
 ############### 第 1 阶段：下载并解压中文前端 ################
 FROM alpine:3.20 AS builder
